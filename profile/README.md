@@ -40,25 +40,27 @@ Preview products free on desktop, tablet and phone. Start from a complete design
 https://mcp.orvio.design/mcp
 ```
 
-[Connection guide](https://orvio.design/agent-mcp) · [MCP documentation](https://orvio.design/docs)
+The server exposes nine read-only tools to search the catalog, inspect releases, fetch source files, pages and components, read tokens, and retrieve bookmarks. Access uses browser authorization and an active membership.
+
+[Connection guide](https://orvio.design/agent-mcp) · [Tools reference](https://orvio.design/docs/mcp/tools)
 
 **Command line**
 
 ```sh
 npm install -g orvio
 orvio login
-orvio pull sotto
+orvio pull YOUR_PRODUCT_SLUG
 ```
+
+Requires Node.js 20 or later. Replace `YOUR_PRODUCT_SLUG` with the identifier from the catalog.
 
 [CLI documentation](https://orvio.design/docs/cli/install) · [npm package](https://www.npmjs.com/package/orvio)
 
-### Explore the designs
+### Start with the docs
 
-[**Sparvek** · Website](https://orvio.design/products/sparvek) &nbsp; / &nbsp;
-[**Calyx** · Web app](https://orvio.design/products/calyx) &nbsp; / &nbsp;
-[**Setfold** · Mobile app](https://orvio.design/products/setfold)
+[Quickstart](https://orvio.design/docs/getting-started/quickstart) · [Prompt library](https://orvio.design/docs/prompts)
 
-[Browse every product →](https://orvio.design/catalog)
+Use a design as a complete starting point, take inspiration from its visual system, or ask your agent to rebuild it in your framework. The prompt library covers pages, components, tokens and framework adaptation.
 
 ### Membership and licensing
 
