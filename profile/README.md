@@ -2,37 +2,66 @@
   <a href="https://orvio.design"><img src="banner-3d.png" alt="Orvio: the whole design. Every layer, in code." width="100%"></a>
 </p>
 
-<h3 align="center">Complete, coded design products with their full source, by download or through your AI agent.</h3>
+<h3 align="center">Studio-grade websites, web apps and mobile apps. Full source, ready to build on.</h3>
 
 <p align="center">
-  <a href="https://orvio.design">Website</a> ·
-  <a href="https://orvio.design/catalog">Catalog</a> ·
+  <a href="https://orvio.design/catalog">Explore the catalog</a> ·
+  <a href="https://orvio.design/agent-mcp">MCP & CLI</a> ·
   <a href="https://orvio.design/docs">Documentation</a> ·
-  <a href="https://www.npmjs.com/package/orvio">CLI on npm</a> ·
+  <a href="https://orvio.design/membership">Membership</a> ·
   <a href="https://orvio.design/support">Support</a>
 </p>
 
 ---
 
-**Orvio** is a members' library of independent, versioned design products: websites and mobile apps delivered as real source (HTML, CSS and JavaScript, with their design tokens), not screenshots or a component kit. One membership opens the whole catalog.
+**Orvio** is a library of complete, art-directed design products for designers, developers and studios. Each product brings its own brand, design tokens, pages or screens, and source files. One membership gives you access to the whole catalog.
 
-### Take a product three ways
+Preview products free on desktop, tablet and phone. Start from a complete design, take a page or component, or use its visual direction as inspiration for your own project.
 
-| | How | Start |
-|---|---|---|
-| **Your AI tool** | Connect the Orvio MCP server to Claude, Cursor, ChatGPT or Windsurf, then ask for a product, a page, a component or its tokens. | `https://mcp.orvio.design/mcp` · [guide](https://orvio.design/docs/mcp/connect-claude) |
-| **The command line** | Sign in once, then pull the current release into your project. | `npx orvio pull <product>` · [guide](https://orvio.design/docs/cli/install) |
-| **Download** | The release as a ZIP, from the product's page. | [catalog](https://orvio.design/catalog) |
+### What you get
 
-### In the catalog
+- **Websites, web apps and mobile apps** with complete pages, screens and flows.
+- **A distinct identity per product:** logo, colours, typography, imagery and voice.
+- **HTML source**, with CSS and JavaScript, ready for your project or for your agent to adapt to your framework.
+- **Readable design tokens** for colours, type and spacing.
+- **Human-reviewed releases**, available through ZIP, CLI and Agent MCP.
 
-- **[Sotto](https://orvio.design/products/sotto)** · website · a calm site for a scout-led remote recruitment service
-- **[Brume](https://orvio.design/products/brume)** · mobile app · a mental health app with a cloud companion and a daily inner-weather check-in
+### Build your way
 
-Every release is validated, reviewed by a person and versioned; you get the newest one, and your agent can port it to React, Vue or anything else.
+| Access | How it works |
+|---|---|
+| **Agent MCP** | Connect your AI tool, authorize in your browser, then request products, pages, components or tokens. Tested with Claude and Codex. |
+| **CLI** | Install from npm, sign in, and pull a product into your project. |
+| **ZIP** | Download the complete source from a product page. |
 
-### Listed on
+**Remote MCP server**
 
-The [MCP Registry](https://registry.modelcontextprotocol.io) as `design.orvio/orvio` · [npm](https://www.npmjs.com/package/orvio) as `orvio` (MIT)
+```text
+https://mcp.orvio.design/mcp
+```
 
-<sub>The product repositories in this organization are private: their source is for members, under the [Orvio licence](https://orvio.design/license).</sub>
+[Connection guide](https://orvio.design/agent-mcp) · [MCP documentation](https://orvio.design/docs)
+
+**Command line**
+
+```sh
+npm install -g orvio
+orvio login
+orvio pull sotto
+```
+
+[CLI documentation](https://orvio.design/docs/cli/install) · [npm package](https://www.npmjs.com/package/orvio)
+
+### Explore the designs
+
+[**Sparvek** · Website](https://orvio.design/products/sparvek) &nbsp; / &nbsp;
+[**Calyx** · Web app](https://orvio.design/products/calyx) &nbsp; / &nbsp;
+[**Setfold** · Mobile app](https://orvio.design/products/setfold)
+
+[Browse every product →](https://orvio.design/catalog)
+
+### Membership and licensing
+
+Membership unlocks source downloads and agent access across the catalog. Projects started during an active membership stay licensed after cancellation. See the [Orvio licence](https://orvio.design/license) for the full terms.
+
+<sub>Product source repositories are private. Get licensed access through <a href="https://orvio.design">orvio.design</a>.</sub>
