@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://orvio.design"><img src="banner.webp" alt="Orvio: the whole design. Every layer, in code." width="100%"></a>
+  <a href="https://orvio.design"><img src="banner-3d.png" alt="Orvio: the whole design. Every layer, in code." width="100%"></a>
 </p>
 
 <h3 align="center">Complete, coded design products with their full source, by download or through your AI agent.</h3>
